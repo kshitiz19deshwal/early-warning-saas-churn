@@ -9,7 +9,7 @@ expensive than retaining one.
 The objective of this project is to proactively identify customers at risk of churn by
 detecting early behavioral decline and enabling timely retention actions before cancellation.
 
-Approach
+##Approach
 1. Generated daily SaaS event-level data to simulate real user behavior
 2. Built customer behavior timelines from raw events
 3. Detected early behavioral drift signals
@@ -18,7 +18,7 @@ Approach
 6. Recommended proactive retention actions
 
 
-Evaluation Strategy
+##Evaluation Strategy
 Customer churn is an imbalanced problem where most customers do not churn.
 In such cases, accuracy can be misleading, as a model predicting "no churn"
 for all customers would still achieve high accuracy.
